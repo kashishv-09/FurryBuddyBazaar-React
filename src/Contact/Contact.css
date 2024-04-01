@@ -1,0 +1,147 @@
+.ContactUs-main{
+
+    background: linear-gradient(0deg, rgb(93, 222, 239) 23.8%, rgb(199, 235, 240) 92%);
+    width: 100%;
+    height: auto;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;  
+    padding:3rem;
+    color:rgb(79, 79, 155);
+}
+.separator{
+   
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.form{
+    width:100%;
+    height:500px;
+    flex-direction: column;  
+    margin: 3rem;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main input{
+    margin: 2rem;
+    background-color: white;
+    color:grey;
+    border-radius: 5px;
+    width:50%;
+    padding:0.5rem .5rem; 
+    border: 3px solid rgba(120,120,120,0.5);
+   
+}
+.main{
+    margin-top: 2rem;
+    
+}
+.submit-Button{
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    background: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+    border: none;
+    border-radius: 4px;
+    transition: all 300ms ease-in;
+    width:30%;
+    margin: auto;
+  }
+  .submit-Button:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+  }
+.main>p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(49, 49, 120);
+}
+.guide {
+    width: 90%;
+    height: auto;
+    margin:auto;
+    border: 2px solid rgb(66, 66, 128);
+    background:url("https://edge.mwallpapers.com/photos/celebrities/hd-wallpapers/minimalism-leaves-branch-simple-background-plants-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-wc4ra.jpg");
+    margin-bottom: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.guide-head{
+    text-align:lefst;
+    font-weight: 500px;
+    font-size: 2rem;
+    padding:2rem 3.5rem;
+    color:rgb(64, 64, 125);
+    text-decoration: underline;
+}
+.list{
+   line-height: 1.5rem;
+    margin: 2rem;
+    padding: 0 2rem;
+    color:rgb(73, 73, 135);
+}
+.footer{
+    width:100%;
+    height:auto;
+    background-color: rgb(154, 211, 225);
+    padding:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-div{
+    background-color: rgb(209, 225, 227) ;
+    width:90%;
+    height:auto;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.first{
+    text-transform: capitalize;
+    
+    padding:1rem;
+
+}
+.first p{
+    font-size: 1.5rem;
+    color:rgb(43, 77, 129);
+}
+.para{
+    margin: 2rem;
+    color:rgb(44, 44, 105);
+}
+.motto{
+   color:rgb(44, 44, 105));
+   padding:2rem;
+}
+.footer-text{
+   font-size: 0.8rem;
+   color: grey;
+   margin: 2rem;
+}
+.icon-section{
+    margin: 1rem;
+}
+.icon-section a {
+    margin: 0.5rem;
+    color:rgb(67, 65, 65)
+}
+.icon-section a:hover{
+    color:rgb(228, 26, 60);
+}
+@media (max-width: 716px) {
+    .main input {
+        width: 100%;
+    }
+}

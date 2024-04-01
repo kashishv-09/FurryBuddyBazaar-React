@@ -1,0 +1,142 @@
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .product-details {
+    text-align: center;
+  }
+  
+  .product-details h2 {
+    margin-top: 0;
+  }
+  
+  .product-details p {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+  .services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative; /* Added for positioning the cart */
+  }
+  
+  .cart {
+    position: absolute;
+    top: 0;
+    right: 20px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    color: #007bff;
+    font-size: 1.5rem;
+  }
+  
+  .cart span {
+    margin-left: 5px;
+  }
+  
+  .services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Add space between items */
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Ensures each product takes up the full width of its grid cell */
+  }
+  
+  .product img {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  .product-details {
+    text-align: center;
+  }
+  
+  .product-details h2 {
+    margin-top: 0;
+  }
+  
+  .product-details p {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+  
+  
